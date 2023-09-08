@@ -1,6 +1,6 @@
 ## Description
 
-This container has both *Parasoft C/C++test Standard* and *Parasoft C/C++test Professional* tools installed 
+This container has both [Parasoft C/C++test Standard](https://docs.parasoft.com/display/CPPTEST20231) and [Parasoft C/C++test Professional](https://docs.parasoft.com/display/CPPTEST20231) tools installed 
 under `/opt/parasoft/` folder:
 
 - /opt/parasoft/cpptest/ (Standard)
