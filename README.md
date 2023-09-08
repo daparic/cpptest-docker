@@ -1,7 +1,7 @@
 ## Description
 
-This container has both [Parasoft C/C++test Professional](https://docs.parasoft.com/display/CPPTESTPROEC20231) and [Parasoft C/C++test Standard](https://docs.parasoft.com/display/CPPTEST20231) tools installed 
-under `/opt/parasoft/` folder:
+This Docker container image has both [Parasoft C/C++test Professional](https://docs.parasoft.com/display/CPPTESTPROEC20231) and [Parasoft C/C++test Standard](https://docs.parasoft.com/display/CPPTEST20231) tools installed 
+under `/opt/parasoft/` folder inside the container:
 
 - /opt/parasoft/cpptestpro/cpptest/ (Professional)
 - /opt/parasoft/cpptest/ (Standard)
