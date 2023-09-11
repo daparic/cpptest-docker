@@ -1,6 +1,10 @@
 FROM parasoft/cpptest
-MAINTAINER daparicio@parasoft.com
+MAINTAINER dexter
 
+USER root
+RUN sudo apt update && sudo apt-get install -y autoconf
+
+USER parasoft
 COPY --chown=parasoft:parasoft chunks /tmp/chunks
 
 RUN mkdir /opt/parasoft/cpptestpro/ && \
